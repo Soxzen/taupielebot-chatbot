@@ -24,7 +24,7 @@ button[type=submit]:hover{
     background-color: #D7572B;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
 }
-#ask{
+.ask{
     margin-top: 150px;
     border-radius: 15px;
     border:1px solid rgba(0, 0, 0, 0.397);
@@ -33,15 +33,15 @@ button[type=submit]:hover{
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
-div.question{
+.divquestion{
     display: flex;
     align-self: flex-end;
 }
-div.question>img{
+.divquestion>img{
     width :75px !important;
     height: 75px !important;
 }
-p.question { border: 1px solid #F6B339;
+.question { border: 1px solid #F6B339;
     background-color:#F6B339;
     color: white;
     text-decoration: none;
@@ -50,16 +50,16 @@ p.question { border: 1px solid #F6B339;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
     margin-right: 15px;
 }
-div.answer{
+.divanswer{
     display: flex;
     align-self: flex-start;
 }
-div.answer>img{
+.divanswer>img{
     width :75px !important;
     height: 55px !important;
 }
 
-p.answer{
+.answer{
     border: 1px solid #DA7B27 ;
     background-color: #DA7B27 ;
     color: white;
@@ -80,7 +80,7 @@ p.answer{
     margin-right: auto;
 }
 
-form#chat{
+form.chat{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
