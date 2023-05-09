@@ -1,4 +1,88 @@
-h1{
-    color: blue;
-    
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+
+h1, h2{
+    color: #77021d;
+}
+
+button{
+    border-radius: 15px ;
+    background-color: #77021d;
+    color: white;
+    border: 0px;
+    width: 150px;
+    height: 35px;
+}
+h2{
+    text-align: center;
+}
+#ask{
+    margin-top: 150px;
+    border-radius: 15px;
+    border:1px solid rgba(0, 0, 0, 0.397);
+    width: 410px;
+    height: 35px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+p.question { border: 1px solid #F6B339;
+    background-color:#F6B339;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 15px;
+
+}
+div.question{
+    display: flex;
+    align-self: flex-end;
+}
+div.question>img{
+    width :75px !important;
+    height: 75px !important;
+    margin-top: 15px;
+}
+div.answer>img{
+    width :75px !important;
+    height: 55px !important;
+}
+p.answer{
+    border: 1px solid #DA7B27 ;
+    background-color: #DA7B27 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 15px;
+}
+div.answer{
+    display: flex;
+    align-self: flex-start;
+}
+.chatbox{
+    border:1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button[type=submit]{
+    background-color: #C23028;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+button[type=submit]:hover{
+    background-color: #D7572B;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+form#chat{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
 }
